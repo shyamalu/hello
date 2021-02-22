@@ -39,4 +39,4 @@ jobs:
           echo $GITHUB_WORKSPACE
       - name: execute build
         run: |
-          sudo /Users/runner/hostedtoolcache/Creator/2.4.3/x64/Contents/MacOS/CocosCreator --path /Users/runner/work/hello/hello --build "platform=android;debug=true;autoCompile=true;startScene=db://assets/Scene/helloworld.fire"
+          sudo /Users/runner/hostedtoolcache/Creator/2.4.3/x64/Contents/MacOS/CocosCreator --disable-gpu --path /Users/runner/work/hello/hello --build "platform=android;debug=true;autoCompile=true;startScene=db://assets/Scene/helloworld.fire"
